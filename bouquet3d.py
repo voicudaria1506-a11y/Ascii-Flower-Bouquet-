@@ -322,7 +322,7 @@ def render(scene, t, cols, rows, hearts):
         if start + i < cols:
             chars[mrow][start + i] = ch
             colors[mrow][start + i] = MSG_COLORS[(i + shift) % len(MSG_COLORS)]
-    hint = we'll do aura farming trust ;)
+            
     hstart = max(0, (cols - len(hint)) // 2)
     for i, ch in enumerate(hint):
         if hstart + i < cols:
